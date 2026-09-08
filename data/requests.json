@@ -1,0 +1,46 @@
+[
+  {
+    "id": "GCC-2026-00482",
+    "category": "Sewer",
+    "location": "Mkoba",
+    "description": "Blocked sewer reported near residential area.",
+    "department": "Engineering",
+    "status": "in_progress",
+    "createdAt": "2026-09-08",
+    "assignedTo": "Service Team",
+    "resident": "u1"
+  },
+  {
+    "id": "GCC-2026-00461",
+    "category": "Water",
+    "location": "Kuwadzana",
+    "description": "Water leak at roadside connection.",
+    "department": "Water",
+    "status": "assigned",
+    "createdAt": "2026-09-07",
+    "assignedTo": "Water Team",
+    "resident": "u1"
+  },
+  {
+    "id": "GCC-2026-00398",
+    "category": "Street lighting",
+    "location": "CBD",
+    "description": "Street light not functioning.",
+    "department": "Engineering",
+    "status": "resolved",
+    "createdAt": "2026-09-03",
+    "assignedTo": "Electrical Team",
+    "resident": "u1"
+  },
+  {
+    "id": "GCC-2026-00376",
+    "category": "Waste",
+    "location": "Riverside",
+    "description": "Missed collection reported.",
+    "department": "Waste",
+    "status": "submitted",
+    "createdAt": "2026-09-01",
+    "assignedTo": "",
+    "resident": "u1"
+  }
+]

@@ -1,0 +1,1 @@
+import {NextResponse} from "next/server";import {read,write} from "@/lib/data";export async function PATCH(req,{params}){let b=await req.json(),d=read("requests.json"),i=d.findIndex(x=>x.id===params.id);if(i<0)return NextResponse.json({error:"Not found"},{status:404});d[i]={...d[i],...b};write("requests.json",d);return NextResponse.json(d[i])}

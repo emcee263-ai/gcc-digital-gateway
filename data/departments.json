@@ -1,0 +1,26 @@
+[
+  {
+    "name": "Water",
+    "description": "Water services, billing support and water-related requests."
+  },
+  {
+    "name": "Engineering",
+    "description": "Roads, sewer, drainage and infrastructure services."
+  },
+  {
+    "name": "Waste",
+    "description": "Waste collection and environmental service requests."
+  },
+  {
+    "name": "Housing",
+    "description": "Municipal housing information and services."
+  },
+  {
+    "name": "Finance",
+    "description": "Billing, statements and payment information."
+  },
+  {
+    "name": "Administration",
+    "description": "General Council information and administration."
+  }
+]

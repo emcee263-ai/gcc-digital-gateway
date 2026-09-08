@@ -1,0 +1,1 @@
+import {NextResponse} from "next/server";import {read,write} from "@/lib/data";export async function GET(){return NextResponse.json(read("notices.json"))}export async function POST(req){let b=await req.json(),d=read("notices.json"),x={id:crypto.randomUUID(),...b,date:new Date().toISOString().slice(0,10)};d.unshift(x);write("notices.json",d);return NextResponse.json(x)}

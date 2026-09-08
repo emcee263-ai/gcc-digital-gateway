@@ -1,0 +1,30 @@
+[
+  {
+    "id": "N1",
+    "category": "Public Notice",
+    "title": "Scheduled water interruption",
+    "date": "2026-09-08",
+    "body": "Residents are advised to review the latest Council service update regarding scheduled water interruption."
+  },
+  {
+    "id": "N2",
+    "category": "Council Announcement",
+    "title": "Municipal service update",
+    "date": "2026-09-07",
+    "body": "Council has published an update for residents on municipal services and service delivery."
+  },
+  {
+    "id": "N3",
+    "category": "Housing",
+    "title": "Housing information",
+    "date": "2026-09-04",
+    "body": "Updated municipal housing information is available through the City Information hub."
+  },
+  {
+    "id": "N4",
+    "category": "Auction",
+    "title": "Municipal property auction notice",
+    "date": "2026-09-02",
+    "body": "Official auction information and relevant Council instructions are available in this notice."
+  }
+]

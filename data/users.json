@@ -1,0 +1,34 @@
+[
+  {
+    "id": "u1",
+    "name": "Tariro Moyo",
+    "role": "resident",
+    "email": "resident@gcc.demo",
+    "account": "GCC-10482",
+    "address": "Mkoba, Gweru"
+  },
+  {
+    "id": "u2",
+    "name": "Admin User",
+    "role": "admin",
+    "email": "admin@gcc.demo",
+    "account": "STAFF-001",
+    "address": "GCC"
+  },
+  {
+    "id": "u3",
+    "name": "Finance Officer",
+    "role": "finance",
+    "email": "finance@gcc.demo",
+    "account": "STAFF-014",
+    "address": "GCC"
+  },
+  {
+    "id": "u4",
+    "name": "Service Clerk",
+    "role": "clerk",
+    "email": "clerk@gcc.demo",
+    "account": "STAFF-009",
+    "address": "GCC"
+  }
+]

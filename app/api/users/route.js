@@ -1,0 +1,1 @@
+import {NextResponse} from "next/server";import {read} from "@/lib/data";export async function GET(){return NextResponse.json(read("users.json"))}

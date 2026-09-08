@@ -1,0 +1,2 @@
+ "use client";import {useApp} from "./AppProvider";import {useRouter} from "next/navigation";import {useEffect} from "react";
+export default function Guard({children,roles}){const{user}=useApp(),r=useRouter();useEffect(()=>{if(!user)r.replace("/login");else if(roles&&!roles.includes(user.role))r.replace(user.role==="resident"?"/dashboard":"/admin")},[user]);if(!user||roles&&!roles.includes(user.role))return null;return children}

@@ -1,0 +1,1 @@
+import {NextResponse} from "next/server";import {read} from "@/lib/data";export async function GET(req){let d=read("bills.json"),a=new URL(req.url).searchParams.get("account");return NextResponse.json(a?d.filter(x=>x.account===a):d)}

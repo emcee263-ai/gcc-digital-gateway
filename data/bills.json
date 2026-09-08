@@ -1,0 +1,34 @@
+[
+  {
+    "id": "B1",
+    "account": "GCC-10482",
+    "period": "September 2026",
+    "amount": "1,245.80",
+    "due": "2026-09-30",
+    "status": "Due"
+  },
+  {
+    "id": "B2",
+    "account": "GCC-10482",
+    "period": "August 2026",
+    "amount": "1,103.20",
+    "due": "2026-08-31",
+    "status": "Paid"
+  },
+  {
+    "id": "B3",
+    "account": "GCC-10482",
+    "period": "July 2026",
+    "amount": "980.50",
+    "due": "2026-07-31",
+    "status": "Paid"
+  },
+  {
+    "id": "B4",
+    "account": "GCC-10482",
+    "period": "June 2026",
+    "amount": "1,024.00",
+    "due": "2026-06-30",
+    "status": "Paid"
+  }
+]
